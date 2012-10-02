@@ -8,7 +8,7 @@ import java.awt.BorderLayout;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import misc.GlobalVars;
+import openh2o.GlobalVars;
 import org.netbeans.api.visual.graph.GraphScene;
 
 /**

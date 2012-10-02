@@ -17,7 +17,8 @@ import javax.imageio.ImageIO;
 import javax.swing.JComponent;
 import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;
-import misc.GlobalVars;
+import openh2o.GlobalVars;
+//import misc.GlobalVars;
 import org.netbeans.api.visual.action.*;
 import org.netbeans.api.visual.anchor.AnchorFactory;
 import org.netbeans.api.visual.anchor.AnchorShape;
@@ -28,7 +29,7 @@ import org.netbeans.api.visual.widget.LayerWidget;
 import org.netbeans.api.visual.widget.Scene;
 import org.netbeans.api.visual.widget.Widget;
 import org.netbeans.api.visual.widget.general.IconNodeWidget;
-import views.standard.timeline.GraphSceneImpl.MyNode;
+import visual.GraphSceneImpl.MyNode;
 
 public class GraphSceneImpl extends GraphScene<String, String> {
 
